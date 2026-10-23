@@ -1,0 +1,48 @@
+{
+  "name": "credora",
+  "version": "1.0.0",
+  "description": "Credora - Decentralized Digital Credential & Achievement Verification",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "chain": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.ts --network localhost",
+    "dev:local": "node scripts/dev-local.js"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "ethers": "^6.13.4",
+    "jspdf": "^2.5.2",
+    "lucide-react": "^0.468.0",
+    "next": "14.2.24",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.12",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/chai": "^4.3.20",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^20.17.10",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "chai": "^4.5.0",
+    "hardhat": "^2.22.18",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
